@@ -1,9 +1,9 @@
 import Heading from "@/components/Heading";
 
-export default function About() {
-    return (
-        <>
-            <Heading>About Page</Heading>
-        </>
-    )
+export default function AboutPage() {
+  return (
+    <>
+      <Heading>About Page</Heading>
+    </>
+  );
 }
