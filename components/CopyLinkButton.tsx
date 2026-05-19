@@ -6,7 +6,9 @@ import { LinkIcon } from "@heroicons/react/16/solid";
 export default function CopyLinkButton() {
     const [copied, setCopied] = useState(false);
 
-    function handleClick() {
+    function handleClick(e: React.MouseEvent<HTMLButtonElement>) {
+        e.preventDefault();
+        e.stopPropagation();
         navigator.clipboard.writeText(window.location.href);
         setCopied(true);
         setTimeout(() => setCopied(false), 2000);

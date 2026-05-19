@@ -1,0 +1,27 @@
+{
+  "data": [
+    {
+      "id": 6,
+      "documentId": "pwg4japsg89a1ezw189q8u55",
+      "title": "Belajar Next",
+      "description": "lorem ipsum",
+      "slug": "belajar-next",
+      "createdAt": "2026-05-18T07:25:24.376Z",
+      "author": "arya",
+      "body": "Lorem **Ipsum**",
+      "image": {
+        "id": 1,
+        "documentId": "hzsmu4in89fn7byeidjqb7pp",
+        "url": "/uploads/Screenshot_2026_05_07_124433_29714c578c.png"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 5,
+      "pageCount": 1,
+      "total": 1
+    }
+  }
+}
